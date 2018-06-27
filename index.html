@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pwa</title>
+        <link rel="stylesheet" type="text/css" href="dist/css/bundle.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="app">
+            <div class="container_video">
+                <button class="button_lamp">
+                    <img src="images/lamp.png" alt="" />
+                </button>
+                <div class="wrapper">
+                    <div class="scaner_line"></div>
+                    <video autoplay class="video" id="camera"></video>
+                </div>
+                <button class="button stop">Close</button>
+                <div class="content">Place a qr-code inside the scan area</div>
+            </div>
+            <div class="container_button_scan_qr_code">
+                <button class="button start" >scan qr code</button>
+                <div class="qrCode"></div>
+            </div>
+        </div>
+        <script src="dist/js/bundle.js"></script>
+    </body>
+</html>
